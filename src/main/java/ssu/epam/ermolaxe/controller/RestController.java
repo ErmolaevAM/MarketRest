@@ -194,7 +194,7 @@ public class RestController {
                     System.out.println(customer.toString());
                     customerService.save(customer);
                 }
-                System.out.println("Create new user ["+username+"] with password ["+password+"].");
+                System.out.println("Create new user ["+words.get(1)+"] with password ["+words.get(3)+"].");
             } catch (IOException e) {
                 e.printStackTrace();
             }
